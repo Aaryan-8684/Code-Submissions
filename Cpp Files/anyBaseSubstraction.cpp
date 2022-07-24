@@ -23,7 +23,7 @@ void anyBaseSubstraction(int base, int num1, int num2) {
         d1 = num1 % 10; d2 = num2 % 10;
         num1 /= 10; num2 /= 10;
 
-        if(d1 < d2) {
+        if(d1 <= d2) {
             if(flag == true) --d1;
             d1 += base;
             rv += (d1 - d2) * pow(10,i);

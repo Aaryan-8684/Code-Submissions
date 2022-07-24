@@ -1,0 +1,46 @@
+A subarray is a contiguous part of an array.
+
+given array : [4, 2, -5, 3, 6]
+
+possible subarrays of size-1 : [4] [2] [-5] [3] [6] (total - total elements in subarray i.e, 5)
+
+possible subarrays of size-2 : [4, 2] [2, -5] [-5, 3] [3, 6] (total 4 subarrays of size 2)
+
+possible subarrays of size-3 : [4, 2, -5] [2,-5, 3] [-5, 3, 6] (total 3)
+
+possible subarrays of size-4 : [4, 2, -5, 3] [2, -5, 3, 6] (total 2)
+
+possibel subarrays of size-5 : [4, 2, -5, 3, 6] (only 1)
+
+is there any subarray exists whose sum is 0. Yes - [2, -5, 3]
+
+i thought first we should generate all subarrays
+
+**********************************************************************************************************
+Problem Statement:
+
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+
+Note:
+
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+Example 1:
+
+Input: [2,2,1]
+
+Output: 1
+
+Example 2:
+
+Input: [4,1,2,1,2]
+
+Output: 4
+
+Level: Easy
+
+Companies Asked in: Amazon, Google, Microsoft, Facebook, Oracle, Adobe, Airbnb
+*************************************************************************************************************
+
+
+
